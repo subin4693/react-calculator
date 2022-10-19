@@ -1,0 +1,35 @@
+button {
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    background-image: linear-gradient(45deg, pink, white);
+    height: 3rem;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.outputField {
+    background-image: linear-gradient(45deg, pink, white);
+    border: 1px solid black;
+    overflow: hidden;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: right;
+    height: 4rem;
+    grid-column: span 4;
+    padding: .5rem;
+}
+
+.calc__container {
+    background-image: linear-gradient(45deg, #00bcd4, #e5f8fa);
+    border-radius: .5rem;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 5rem 5rem 5rem 5rem;
+    padding: 1rem;
+}
